@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+p{
+    font-family: "Raleway", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 35px;
+    letter-spacing: 5px;
+}
+
+
+
+.banner{
+    background-image: url("../images/banner.png");
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    border-style:  solid;
+    border-color: #1472B7;
+}
+
+.banner-content{
+    background-image: linear-gradient(#00000099,#31a9dd23,#31a9dd23, #31A8DD00);
+    height: 605px;
+    align-items: center;
+}
+
+.banner-content h1{
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-weight: 900;
+    font-size: 40px;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    font-size: 20px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    background-color: #00000033;
+    height: 268px;
+    width: 268px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    align-content: center;
+}
+
+button{
+    width: 326px;
+    height: 57px;
+    color: #31A8DD;
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1472B7;
+}
+
+#course-content{
+    padding: 100px 0px;
+    width: 792px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#course-content p{
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.module{
+    width: 535px;
+    height: 51px;
+    margin: 20px auto;
+    background-color: #252525;
+    border-radius: 25px;
+    border: 1px solid #33A8DB;
+    align-content: center;
+    box-shadow: inset -2px 6px 4px #0000007a;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.module span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    height: 363px;
+    border: 2px solid #33A8DB;
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    align-content: center;
+}
+#transform-world p{
+    font-family: "Raleway", serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 200px;
+    width: 244px;
+    line-height: 45px;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+#professional-challenges{
+     width: 746px;
+     margin: 80px auto;
+     text-align: center;
+}
+
+footer{
+    border-width: 1px 0px 0px 0px;
+    border-style:  solid;
+    border-color: #1472B7;
+    height: 170px;
+    background-image: linear-gradient(#33a9db00, #33a9db3b);
+    text-align: center;
+    align-content: center;
+}
+.dio-logo{
+    margin-bottom: 15px;
+}
+footer a{
+
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: 700;
+}
